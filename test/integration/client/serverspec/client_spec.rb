@@ -1,5 +1,4 @@
-# encoding: utf-8
-# Copyright 2012, Chef Software, Inc.
+# Copyright:: 2012-2017, Chef Software, Inc.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,7 +13,7 @@
 # limitations under the License.
 #
 
-require_relative '../../../kitchen/data/spec_helper'
+require_relative './spec_helper'
 
 describe 'postfix::client' do
   it 'doesnt configure postfix because solo is unsupported' do
